@@ -5,13 +5,12 @@ import com.codingshuttle.project.uber.uberApp.entities.Driver;
 import com.codingshuttle.project.uber.uberApp.entities.Ride;
 import com.codingshuttle.project.uber.uberApp.entities.enums.RideStatus;
 import com.codingshuttle.project.uber.uberApp.services.RideService;
-import com.codingshuttle.project.uber.uberApp.services.RiderService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 @Service
-public class RIdeServiceImpl implements RideService {
+public class RideServiceImpl implements RideService {
     @Override
     public Ride getRideById(Long rideId) {
         return null;

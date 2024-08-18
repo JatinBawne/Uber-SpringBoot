@@ -39,6 +39,8 @@ public class RideDto {
 
     private LocalDateTime startedAt;
 
+    private String otp;
+
     private LocalDateTime endedAt;
 
 }
