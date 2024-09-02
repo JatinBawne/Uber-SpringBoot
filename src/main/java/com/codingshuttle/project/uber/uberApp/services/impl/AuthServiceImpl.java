@@ -37,8 +37,6 @@ public class AuthServiceImpl implements AuthService {
             throw new RuntimeConflictException("Cannot signup, User already enrolled with email " + signupDto.getEmail());
         }
 
-
-
         User mappedUser = modelMapper.map(signupDto, User.class);
         mappedUser.setRoles(Set.of(Role.RIDER));
         User savedUser = userRepository.save(mappedUser);
