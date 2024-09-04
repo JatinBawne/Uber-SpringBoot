@@ -5,9 +5,6 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
 import org.locationtech.jts.geom.PrecisionModel;
-import org.modelmapper.ModelMapper;
-
-import java.awt.*;
 
 public class GeometryUtil {
 
